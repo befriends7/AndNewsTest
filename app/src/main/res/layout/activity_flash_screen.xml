@@ -9,14 +9,12 @@
 
     <ImageView
         android:id="@+id/imgMain"
-        android:layout_width="180dp"
-        android:layout_height="180dp"
-        android:layout_marginStart="143dp"
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:layout_marginStart="103dp"
         android:layout_marginTop="130dp"
-        android:layout_marginEnd="143dp"
-        android:layout_marginBottom="200dp"
+        android:layout_marginEnd="103dp"
         android:src="@drawable/fireb"
-        app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -31,6 +29,8 @@
         android:layout_marginEnd="80dp"
         android:background="@drawable/but_bord1"
         android:text="Google"
+
+        app:iconGravity="start"
         android:textColor="@android:color/white"
         app:backgroundTint="@null"
         app:layout_constraintEnd_toEndOf="parent"
